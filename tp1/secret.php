@@ -1,4 +1,8 @@
 <?php
+    include '../globals_functions.php';
+?>
+<?php
+    printr($_SERVER);
     $_POST['password'] = htmlspecialchars($_POST['password']);
     if(is_string($_POST['password']) && $_POST['password'] == 'kangourou'){
     }else{

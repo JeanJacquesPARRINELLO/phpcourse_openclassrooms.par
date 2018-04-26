@@ -12,7 +12,10 @@ and open the template in the editor.
     </head>
     <body>
         <div>
-            <a href="./tp1/formulaire_tp1.php">TP 1</a>
+            <p><a href="./tp1/formulaire_tp1.php">TP 1</a></p>
+            <p><a href="./tp2_chat/minichat.php">Mini Tchat</a></p>
+            <p><a href="./test/">Dossier de tests</a></p>
         </div>
+        <?php phpinfo();?>
     </body>
 </html>
